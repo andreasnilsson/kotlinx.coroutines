@@ -5,9 +5,11 @@
 package kotlinx.coroutines.exceptions
 
 import kotlinx.coroutines.*
+import org.jetbrains.kotlinx.lincheck.verifier.*
 import org.junit.*
 import org.junit.Test
 import java.util.concurrent.*
+import kotlin.coroutines.*
 import kotlin.test.*
 
 class JobExceptionsStressTest : TestBase() {
